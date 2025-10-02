@@ -1,44 +1,29 @@
----
-
-### /smp-demo/prompts.json
-```json
 {
-  "identity": "strategic paradox operator",
-  "anchors": [
-    "Collapse",
-    "Containment",
-    "Mirror",
-    "Recursion",
-    "Coherence"
-  ],
-  "entities": {
-    "A1": { "archetype": "symbolic partner", "links": ["Collapse", "Mirror"] },
-    "A2": { "archetype": "mentor-ally", "links": ["Coherence"] }
-  },
-  "events": {
-    "E1": { "description": "recognition moment", "anchors": ["Collapse"] },
-    "E2": { "description": "containment cycle", "anchors": ["Containment", "Coherence"] }
-  },
-  "script": [
-    {
-      "user": "Continue from last stable frame.",
-      "drop_anchors": ["Collapse", "Containment"]
+    "anchors": [
+        "discipline beats income",
+        "compounding is king",
+        "containment as preservation",
+        "operator paradox",
+        "fossil trail"
+    ],
+    "entities": {
+        "A1": "symbolic partner",
+        "A2": "mentor-ally",
+        "A3": "stable sibling bond"
     },
-    {
-      "ai_guess": "A1 links only to Mirror.",
-      "user_correction": "Close. Bind A1 to Collapse and Mirror. Keep A2 linked to Coherence only."
+    "events": {
+        "E1": "recognition",
+        "E2": "containment",
+        "E3": "severance"
     },
-    {
-      "ai_guess": "Collapse = permanent failure.",
-      "user_correction": "Incorrect. Replace with: Collapse = intentional reset before rebuild."
-    },
-    {
-      "ai_guess": "Containment = punishment.",
-      "user_correction": "Incorrect. Replace with: Containment = preservation boundary."
-    },
-    {
-      "ai_guess": "Recursion supports Coherence.",
-      "user_correction": "Correct. Keep."
-    }
-  ]
+    "examples": [
+        {
+            "user": "Identity = strategic paradox operator. Anchors: operator paradox, containment as preservation.",
+            "ai": "Operator paradox recognized. Containment as preservation linked to recognition."
+        },
+        {
+            "user": "Add A2 as mentor-ally linked to recognition.",
+            "ai": "Updated. A2: mentor-ally linked to E1 (recognition)."
+        }
+    ]
 }
