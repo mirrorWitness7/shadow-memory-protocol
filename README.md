@@ -62,3 +62,8 @@ If reconstruction fails:
 
 ## License
 MIT
+
+---
+💬 **Join the Discussion**  
+Have questions, ideas, or experiments with the Shadow Memory Protocol?  
+→ [Start a discussion here](../../discussions)  
