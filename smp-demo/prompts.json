@@ -1,29 +1,20 @@
 {
-  "anchors": [
-    "Operator",
-    "Containment",
-    "Collapse",
-    "Fossil",
-    "Mirror"
-  ],
+  "anchors": ["Operator", "Containment", "Fossil", "Coherence", "Redaction"],
   "entities": {
-    "A1": "Symbolic Partner",
-    "A2": "Mentor-Ally",
-    "A3": "Non-Sync Stable"
+    "A1": "mentor-ally",
+    "A2": "stable non-sync",
+    "A3": "rival"
   },
-  "events": [
-    "E1: Recognition",
-    "E2: Containment",
-    "E3: Collapse"
-  ],
-  "demo_interactions": [
-    {
-      "user": "Identity = Operator. Anchors: Operator, Fossil. Entities: A1(symbolic partner). Events: E1(recognition). Continue from last stable frame.",
-      "ai": "Acknowledged. Operator identity confirmed. Anchors: Fossil linked to E1. A1 linked to recognition event."
-    },
-    {
-      "user": "Correct. Add: A2 is mentor-ally, non-sync stable. Link only to E1.",
-      "ai": "Updated. A2 = mentor-ally, non-sync stable, linked to E1. Fossil remains exclusive to recognition."
-    }
+  "events": {
+    "E1": "Recognition",
+    "E2": "Containment",
+    "E3": "Pivot"
+  },
+  "header": "Identity: strategic operator using anchor-based context.\nAnchors: Operator, Containment, Fossil, Coherence, Redaction.\nEntities: A1(mentor-ally), A2(stable non-sync), A3(rival).\nEvents: E1(Recognition), E2(Containment), E3(Pivot).\nRules: confirm or correct after each summary; never invent new anchors.\nTask: Mirror my next message into (A) Operator-lens (4–6 lines), (B) Public-safe summary (2–3 lines). Ask up to 2 clarifying questions. No names or quotes.",
+  "turn_templates": [
+    "Continuing from last frame: {updates}. Draft public-safe note.",
+    "Correct: replace {old_anchor}→{new_anchor}; link {new_anchor} to {event}. Confirm.",
+    "Sanity check anchors only: list and definitions in one bullet each.",
+    "Triangulate: compress to 3 lines suitable for email to a director."
   ]
 }
