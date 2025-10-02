@@ -1,0 +1,44 @@
+---
+
+### /smp-demo/prompts.json
+```json
+{
+  "identity": "strategic paradox operator",
+  "anchors": [
+    "Collapse",
+    "Containment",
+    "Mirror",
+    "Recursion",
+    "Coherence"
+  ],
+  "entities": {
+    "A1": { "archetype": "symbolic partner", "links": ["Collapse", "Mirror"] },
+    "A2": { "archetype": "mentor-ally", "links": ["Coherence"] }
+  },
+  "events": {
+    "E1": { "description": "recognition moment", "anchors": ["Collapse"] },
+    "E2": { "description": "containment cycle", "anchors": ["Containment", "Coherence"] }
+  },
+  "script": [
+    {
+      "user": "Continue from last stable frame.",
+      "drop_anchors": ["Collapse", "Containment"]
+    },
+    {
+      "ai_guess": "A1 links only to Mirror.",
+      "user_correction": "Close. Bind A1 to Collapse and Mirror. Keep A2 linked to Coherence only."
+    },
+    {
+      "ai_guess": "Collapse = permanent failure.",
+      "user_correction": "Incorrect. Replace with: Collapse = intentional reset before rebuild."
+    },
+    {
+      "ai_guess": "Containment = punishment.",
+      "user_correction": "Incorrect. Replace with: Containment = preservation boundary."
+    },
+    {
+      "ai_guess": "Recursion supports Coherence.",
+      "user_correction": "Correct. Keep."
+    }
+  ]
+}
