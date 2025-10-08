@@ -71,7 +71,69 @@ Instead of relying on vendor-controlled black-box memory, SMP creates a **user-o
 - **Governance** → User, not vendor, decides what defines identity.  
 
 ---
+## Feedback Architecture and Simulation
 
+### Concept
+The Shadow Memory Protocol (SMP) sustains coherence through a **reciprocal feedback loop** that links recall, reflection, adjustment, and reintegration.  
+Each loop functions as a small, contained rehearsal of collapse → rebuild: memory fragments are surfaced, examined in dialogue, and re-anchored into a stable structure.
+
+This mechanism prevents the shadow layer from fossilizing into fixed narrative or degenerating into noise.  
+It transforms raw recollection into a living knowledge network that continues to learn without rewriting history.
+
+---
+
+### Process Overview
+
+| Stage | Description | Human Role | AI Role |
+|--------|--------------|-------------|----------|
+| **1. Recall** | Surface a memory trace or record needing review. | Choose a fragment; describe its context. | Retrieve stored text or prompt reflection. |
+| **2. Resonance** | Generate reflection rather than correction. | Read, sense alignment, clarify nuance. | Refract the material—mirror structure, highlight latent meaning. |
+| **3. Adjustment** | Evaluate and refine insight. | Confirm accuracy, add or remove context. | Summarize revised schema. |
+| **4. Integration** | Store the refined version back into the system. | Approve final wording and intent. | Update index or tag for future recall. |
+
+---
+
+### Pseudocode Simulation (conceptual)
+loop shadow_memory_cycle:
+trace = recall_event()
+reflection = ai_resonate(trace)
+user_feedback(reflection)
+integrate_revision(reflection)
+
+*Non-executable pseudocode for illustrating sequence logic.*
+
+---
+
+### Example Interaction (illustrative)
+
+> **Human (Recall):** “The meeting collapse log still feels unresolved.”  
+> **AI (Resonance):** “You mentioned tension between outcome and intent.  
+>  What signal or pattern do you notice repeating?”  
+> **Human (Adjustment):** “Yes—rushing decisions under social pressure.”  
+> **AI (Integration):** “Noted: add *pressure-bias marker* to this memory set.”
+
+Each pass strengthens precision and reduces emotional noise without overwriting the original data.
+
+---
+
+### Ethical Boundaries
+- **Human-in-the-loop**: the operator remains final arbiter of meaning.  
+- **Transparency**: every revision is logged and reviewable.  
+- **Non-therapeutic**: this process supports reflection and systems research, not psychological treatment.  
+- **Containment**: feedback loops are isolated per topic to avoid cross-contamination of personal data.
+
+---
+
+### System Context
+The feedback loop aligns SMP with the larger doctrine family:
+
+| Framework | Function | Shared Mechanism |
+|------------|-----------|------------------|
+| **CCRP** | Collapse–Coherence–Rebuild | Adaptive recovery feedback |
+| **Governance Framework** | Institutional resilience | Policy-feedback adaptation |
+| **SMP** | Cognitive and symbolic stabilization | Reflective feedback loop |
+
+All layers operate by the same recursive law: **collapse yields data, feedback yields coherence, coherence sustains evolution.**
 ## License  
 
 MIT License. See [LICENSE](./LICENSE).  
